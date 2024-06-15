@@ -1,0 +1,131 @@
+/* Styles for the main container */
+.machines-list {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.machines-list h2 {
+    text-align: center;
+    color: #4e0b73;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Add Machine and Logout buttons */
+.add-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.add1-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px  87%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+.add1-button:hover {
+    background-color: #0056b3;
+}
+
+/* Search input */
+.machines-list input[type="text"] {
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0;
+    border: 2.5px solid #040404;
+    border-radius: 5px;
+}
+
+/* Container for machine cards */
+.machine-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Individual machine card */
+.machine-card {
+    flex: 1 1 calc(50% - 20px);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.machine-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.machine-card p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.machine-card p span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button container for edit and delete buttons */
+.btn-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Update and Cancel buttons */
+.update-btn,  .btn-container button {
+    
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-btn {
+    background-color: green;
+}
+
+.delete-btn {
+    color:white;
+    background-color: #fd0720;
+}
+
+.update-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+.machine-card input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
